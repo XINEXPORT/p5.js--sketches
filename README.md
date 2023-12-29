@@ -1,6 +1,6 @@
 # p5.js sketches
 I decided to create a digital drawing atleast once a week to help me reset my brain from learning react and exercise my creative side. <br>
-Most of these are exercises ive found on youtube, git, tiktok, and the p5.js tutorials. Tutorial links can be found in the source code.
+Most of these exercises ive found on youtube, git, tiktok, and the p5.js tutorials. Tutorial links can be found in the source code.
 
 View Here
 https://xinexport.github.io/p5.js-sketches/
