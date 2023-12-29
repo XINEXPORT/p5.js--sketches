@@ -3,22 +3,16 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 200vh;
+  height: 400vh;
   flex: 1; 
   background-color: black;
 }
-
 .container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 30%;
+  width: 60%;
 }
-
-.radial {
-  flex: 1; 
-}
-
-.red-green {
-  flex: 1; 
+.radial, .red-green, .circle-splash .hot-pink .circle-splash{
+  flex: 1;
 }
