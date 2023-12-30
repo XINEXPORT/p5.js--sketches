@@ -1,4 +1,6 @@
 // redGreenScreen.js
+//https://youtu.be/q52EbVf2bYY?si=YkUkldo0hokJ_pbO
+
 let redGreenSketch = function(p) {
   p.setup = function() {
     p.createCanvas(window.innerWidth, window.innerHeight);

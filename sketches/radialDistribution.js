@@ -1,4 +1,6 @@
 // radialDistribution.js
+//https://www.youtube.com/watch?v=tUY5MV3awM4
+
 let radialSketch = function(p) {
   const numRings = 3;
 
