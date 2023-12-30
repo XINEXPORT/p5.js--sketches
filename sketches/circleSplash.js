@@ -7,7 +7,8 @@ let circleSplashSketch = function (p) {
   
     // Create a new canvas to the browser size
     p.setup = function () {
-      p.createCanvas(p.windowWidth / 2, p.windowHeight);
+      p.createCanvas(window.innerWidth, window.innerHeight);
+      // p.createCanvas(p.windowWidth / 2, p.windowHeight);
     };
 
     // Render loop that draws shapes with p5

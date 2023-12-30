@@ -1,7 +1,8 @@
 //hotPinkReactangles.js
 let hotPinkRectanglesSketch = function(p) {
     p.setup = function () {
-      p.createCanvas(window.innerWidth / 2, window.innerHeight);
+      p.createCanvas(window.innerWidth, window.innerHeight);
+      // p.createCanvas(window.innerWidth / 2, window.innerHeight);
       p.strokeWeight(20);
     };
   

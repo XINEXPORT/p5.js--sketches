@@ -9,7 +9,8 @@ let cellHeight;
 
 let gerhardRichterSketch = function(p) {
   p.setup = function() {
-    p.createCanvas(window.innerWidth / 2, window.innerHeight);
+    // p.createCanvas(window.innerWidth / 2, window.innerHeight);
+    p.createCanvas(window.innerWidth, window.innerHeight);
     p.noLoop();
     p.noStroke();
     p.colorMode(p.HSB);
