@@ -3,13 +3,13 @@ let radialSketch = function(p) {
   const numRings = 3;
 
   p.setup = function() {
-    p.createCanvas(window.innerWidth / 2, window.innerHeight);
+    p.createCanvas(window.innerWidth, window.innerHeight);
     p.angleMode(p.DEGREES);
   };
 
   p.draw = function() {
     p.background(0);
-    p.translate(window.innerWidth / 4, window.innerHeight / 2);
+    p.translate(window.innerWidth / 2, window.innerHeight / 2);
 
     for (let i = 0; i < numRings; i++) {
       p.rotate(60);

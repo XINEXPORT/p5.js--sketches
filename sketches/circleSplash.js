@@ -9,12 +9,7 @@ let circleSplashSketch = function (p) {
     p.setup = function () {
       p.createCanvas(p.windowWidth / 2, p.windowHeight);
     };
-  
-    // On window resize, update the canvas size
-    p.windowResized = function () {
-      p.resizeCanvas(p.windowWidth / 2, p.windowHeight);
-    };
-  
+
     // Render loop that draws shapes with p5
     p.draw = function () {
       p.blendMode(p.BLEND);

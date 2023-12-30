@@ -5,10 +5,6 @@ let hotPinkRectanglesSketch = function(p) {
       p.strokeWeight(20);
     };
   
-    p.windowResized = function () {
-      p.resizeCanvas(windowWidth, windowHeight);
-    };
-  
     p.draw = function () {
       p.blendMode(p.BLEND);
       p.background("#ff39b5");

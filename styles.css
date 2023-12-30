@@ -3,7 +3,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 520vh;
+  height: 320vh;
   flex: 1; 
   background-color: black;
 }
