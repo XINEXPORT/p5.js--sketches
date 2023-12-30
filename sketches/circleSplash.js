@@ -2,6 +2,8 @@
 
 let circleSplashSketch = function (p) {
     let d = 50;
+    let timer = 0;
+    const resetTime=8000;
   
     // Create a new canvas to the browser size
     p.setup = function () {
@@ -39,6 +41,13 @@ let circleSplashSketch = function (p) {
   
       p.circle(p.width - d, p.height / 2, d);
       p.circle(p.width - d, p.height / 4, d);
+
+      timer += p.deltaTime;
+
+      if(timer > resetTime) {
+        d=50;
+        timer=0;
+      }
     };
   };
   

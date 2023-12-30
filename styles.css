@@ -3,7 +3,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 400vh;
+  height: 500vh;
   flex: 1; 
   background-color: black;
 }
@@ -11,8 +11,8 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 60%;
+  width: 70%;
 }
-.radial, .red-green, .circle-splash .hot-pink .circle-splash{
+.radial, .red-green, .circle-splash .hot-pink .circle-splash .gerhard-richter{
   flex: 1;
 }
