@@ -61,7 +61,6 @@ let dvdSketch = function (p) {
 
   p.windowResized = function () {
     p.resizeCanvas(window.innerWidth, window.innerHeight);
-    // Adjust the starting position of the box when the window is resized
     boxX = p.width / 2;
     boxY = p.height / 2;
   };

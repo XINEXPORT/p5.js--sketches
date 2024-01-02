@@ -42,14 +42,23 @@
       <script>
         new p5(gerhardRichterSketch, 'gerhard-richter');
       </script>
-
-      <div class="dvd">
-        <script src="sketches/dvd.js"></script>
-        <script>
-          new p5(dvdSketch, 'dvd');
-        </script>
     </div>
-  </div>
+
+    <div class="dvd">
+      <script src="sketches/dvd.js"></script>
+      <script>
+        new p5(dvdSketch, 'dvd');
+      </script>
+    </div>
+
+    <div class="flowfields-cyan">
+      <script src="sketches/flowFieldsCyan.js"></script>
+      <script>
+        window.onload = function() {
+          new p5(flowFieldsCyanSketch, 'flowfields-cyan');
+        };
+      </script>
+    </div>
 </div>
 
 </body>
