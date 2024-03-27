@@ -6,7 +6,7 @@ let angleY = 0;
 
 let colorfulLandscapeSketch = function (p) {
   p.setup = function () {
-    p.createCanvas(windowWidth, windowHeight, p.WEBGL);
+    p.createCanvas(p.windowWidth, p.windowHeight, p.WEBGL);
     p.angleMode(p.DEGREES);
     p.noiseDetail(1);
   };
