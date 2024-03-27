@@ -12,6 +12,15 @@ body {
   align-items: center;
   width: 80%;
 }
-.radial, .red-green, .circle-splash .hot-pink .circle-splash .gerhard-richter .dvd .flowfields-cyan .colorful-landscape{
+.radial, 
+.red-green, 
+.circle-splash, 
+.hot-pink, 
+.circle-splash,
+.gerhard-richter,
+.dvd,
+.flowfields-cyan,
+.colorful-landscape,
+.sin-wav-twirl{
   flex: 1;
 }

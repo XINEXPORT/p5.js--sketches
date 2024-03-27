@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.7/dat.gui.min.js"></script>
+  <!-- sound libraries --> 
+  <script src="https://cdn.jsdelivr.net/npm/@tonaljs/tonal/browser/tonal.min.js"></script>
+  <script src="https://unpkg.com/tone@14.7.58/build/Tone.js"></script>
   <title>XINE Sketches</title>
 </head>
 <body>
@@ -62,6 +66,12 @@
       <script src="sketches/colorful-landscape.js"></script>
       <script>
           new p5(colorfulLandscapeSketch, 'colorful-landscape');
+      </script>
+    </div>
+    <div class="sin-wav-twirl">
+      <script src="sketches/sin-wav-twirl.js"></script>
+      <script>
+          new p5(sinwavtwilSketch, 'sin-wav-twirl');
       </script>
     </div>
 </div>
